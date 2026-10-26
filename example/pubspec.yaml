@@ -1,0 +1,18 @@
+name: flutter_ui_theme_example
+description: Gallery for flutter_ui_theme. Run on Android, macOS, Windows, Linux or web.
+publish_to: none
+
+environment:
+  sdk: ^3.9.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_ui_theme:
+    path: ../
+
+dev_dependencies:
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
